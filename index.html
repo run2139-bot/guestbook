@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>우리반 방명록</title>
+<style>
+  body {
+    margin: 0;
+    padding: 24px 16px;
+    font-family: "Malgun Gothic", sans-serif;
+    background: #f4f6fb;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    margin: 0 0 24px;
+  }
+  .cards {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  .card h2 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+  }
+  .card p {
+    margin: 0;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <h1>우리반 방명록</h1>
+
+  <section class="cards">
+    <article class="card">
+      <h2>이름</h2>
+      <p>여기에 방명록 메시지를 적어주세요.</p>
+    </article>
+    <article class="card">
+      <h2>이름</h2>
+      <p>여기에 방명록 메시지를 적어주세요.</p>
+    </article>
+    <article class="card">
+      <h2>이름</h2>
+      <p>여기에 방명록 메시지를 적어주세요.</p>
+    </article>
+  </section>
+</body>
+</html>
